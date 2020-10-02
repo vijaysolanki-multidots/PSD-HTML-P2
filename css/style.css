@@ -190,6 +190,13 @@
   background-size: cover;
 }
 
+.custom-block img{
+  height: 350px;
+  position: absolute;
+  top: -70px;
+  left: -30px;
+}
+
 .side-bar{
   padding: 150px 100px;
 }
@@ -234,7 +241,6 @@ side-bar p {
   float: right;
   padding-right: 10px;
   font-family: Baltica-regular;
-
 }
 
 /* Footer */
@@ -293,14 +299,14 @@ footer {
 
 
 /* Media Query */
-@media screen and (min-width:0px) and (max-width:1500px){ 
+@media screen and (min-width:1200px) and (max-width:1500px){ 
   body{ overflow-x: hidden; margin: 0px auto; }
   .custom-svg{ display: none; } 
 }
 
 
 @media screen and (max-width:1200px){
-
+  .custom-svg{ display: none; } 
   .menu li {
     display: inline-block;
     padding: 0 15px;
@@ -318,8 +324,127 @@ footer {
     padding: 0 90px;
   }
   
+  .main-text h1{ font-size: 100px; }
 }
+
+@media screen and (max-width:1024px){
+
+  /* Hero Banner Section Starts*/
+  
+  .header-content h1{
+    font-size: 84px;
+    color: #fff;
+    display: block;
+    width: 100%;
+    padding-bottom: 20px;
+    font-family: Baltica-Regular;
+  }
+  .header-content p {
+    font-size: 25px;
+    color: #fff;
+    font-family: Gotham-book;
+    padding-bottom: 100px;
+    padding: 0px 110px;
+  }
+
+  /* Hero/Banner Section Ends*/
+
+
+  /* About Section Started */
+
+  .main-aboutUs {
+    padding: 150px 0px;
+  }
+  .head-text span {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Gotham-book;
+    color: #00527d;
+  }
+  
+  .main-text h1 {
+    font-size: 92px;
+    font-family: Baltica-Regular;
+    font-weight: bold;
+    color: #00527d;
+  }
+  .main-text p {
+    font-size: 21px;
+    color: #00527d;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    text-align: left;
+    padding-left: 75px;
+    padding-right: 215px;
+    font-family: Gotham-light;
+  }
+  
+  .main-text a {
+    color: #00527d;
+    font-size: 20px;
+    text-decoration: underline;
+    padding-left: 75px;
+    font-family: Gotham-medium;
+  }
+  /* About Section Ends */
+
+  /* Services Section Starts */
+
+  .services-head-text span {
+    color: #0c547f;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Gotham-medium;
+    text-transform: uppercase;
+  }
+
+  .mini-services-text h1 {
+    font-size: 93px;
+    color: #0c547f;
+    width: 570px;
+    max-width: 100%;
+    padding-bottom: 35px;
+    padding-top: 25px;
+    font-family: Baltica-regular;
+  }
+
+  .services-main-text ul li{
+    color: #292929;
+    font-size: 20px;
+    padding: 10px 0px;
+    font-weight: 200;
+    padding-right: 40px;
+  }
+  /* Services Section Ends */
+
+  /* Side Bar Starts */
+  .connect-main { padding-top: 150px; }
+  .side-bar h1 {
+    font-size: 25px;
+    color: #0c547f;
+    font-family: Baltica-regular;
+  }
+  .side-bar{
+    padding: 150px 100px;
+  }
+  /* Side Bar Ends */
+
+  /* Testinomial Starts */
+  .custom-testinomial{ padding: 100px 100px; }
+  .custom-testinomial p {
+    color: #0c547f;
+    font-size: 25px;
+    font-family: Baltica-regular;
+  }
+  .custom-testinomial p { font-size: 25px; }
+  /* Testinomial Ends */
+
+}
+
 @media screen and (min-width:710px) and (max-width:990px){
+  .custom-svg{ display: none; } 
+  
   .menu li {
     display: inline-block;
     padding: 0 4px;

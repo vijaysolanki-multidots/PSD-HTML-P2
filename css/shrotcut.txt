@@ -28,7 +28,6 @@ new project
            -> try to make proper use of padding and margin
                 => know excetly where you want to use margin & Padding.
                 => e.x. set of section in that we give padding top but its wrong
-                    follow this approach
                     section1 => give margin bottom & try not to give padding top
                     section2 => give margin bottom & try not to give padding top
                     section3 => give margin bottom & try not to give padding top 
@@ -62,6 +61,7 @@ new project
 
 Question Which i asked ?
     1. how i manage the layout of site?
+                    follow this approach
     2. active link can have the logo and active class and font will bold.
     3. how to overlap the image using :after & :before?
     4. how i setup input types for form
@@ -92,3 +92,31 @@ Fonts Which i have to use
 div {
   font-family: myFirstFont;
 }
+
+
+    320px
+    480px
+    600px
+    768px
+    900px
+    1024px
+    1200px
+
+    .username:after {
+    content:"Insert your user name";
+}
+@media screen and (max-width: 1024px) {
+    .username:before {
+        content:"User name";
+    }
+}
+@media screen and (max-width: 480px) {
+    .username:before {
+        content:"";
+    }
+}
+
+
+
+Now just make small navigation and other stuff and disable the menu img 
+ 
