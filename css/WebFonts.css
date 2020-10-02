@@ -1,0 +1,59 @@
+/* Baltica Fonts */
+@font-face{
+    font-family: 'Baltica-Regular';
+    src: url(../Fonts/Baltica/Baltica_Regular/Baltica_Regular.ttf);
+    font-size: normal;
+    font-weight: normal;
+}
+@font-face{
+    font-family: 'Baltica-Bold';
+    src: url(../Fonts/Baltica/Baltica_Bold/Baltica_Bold.ttf);
+    font-size: normal;
+    font-weight: normal;
+}
+
+/* Mark OT Fonts */
+@font-face{
+    font-family: 'MarkOT-Bold';
+    src: url(../Fonts/MarkOT-Bold/MarkOT-Bold.ttf);
+    font-size: normal;
+    font-weight: normal;
+}
+
+/* Lora Fonts */
+@font-face{
+    font-family: 'Lora-regular';
+    src: url(../Fonts/Lora/static/Lora-Regular.ttf);
+    font-size: normal;
+    font-weight: normal;
+}
+
+/* Gotham Fonts */
+
+@font-face{
+    font-family: 'Gotham-book';
+    src: url(../Fonts/Gotham/Gotham_Book_Regular/Gotham_Book_Regular.otf) format('.otf');
+    font-size: normal;
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: 'Gotham-light';
+    src: url(../Fonts/Gotham/Gotham_Light_Regular/Gotham_Light_Regular.otf) format('.otf');
+    font-size: normal;
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: 'Gotham-bold';
+    src: url(../Fonts/Gotham/Gotham_Bold/Gotham_Bold_Regular.ttf);
+    font-size: normal;
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: 'Gotham-medium';
+    src: url(../Fonts/Gotham/Gotham_Medium/Gotham_Medium_Regular/Gotham_Medium_Regular.ttf);
+    font-size: normal;
+    font-weight: normal;
+}

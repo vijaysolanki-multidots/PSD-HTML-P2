@@ -1,0 +1,94 @@
+new project 
+1. custom-container
+2. font style
+3. use for  ctrl+shift+{
+
+
+    What i learn in the zoom call is:
+
+        0. How to gether info when new project is assgined you. ?
+        A. go throgh that entire psd 
+            -> calculate font size,font-family,container,wrapper,
+            -> try to compare your code in psd with pixel by pixel  
+                if you're matching your code please take ss then take low opecity from 1 to 9 and match it.
+            -> if you stuck in any problem dont hasitate to search on google 
+
+
+        1. Talk about basic info of vijay
+        2. How i manage look of website fonts all stuff
+        A. Try to custmize the fonts and use the actual fonts
+            so now how will you use the actual fonts which described in PSD.
+                -> download that fonts from google font
+                -> goto https://www.web-font-generator.com/ link
+                -> merge that to the fonts folder
+                -> in .css file.
+
+        3. Take ss of what you made then try to combine your .html to .psd 
+        A. -> if it matching then you have to follow pixel to pixel.
+           -> try to make proper use of padding and margin
+                => know excetly where you want to use margin & Padding.
+                => e.x. set of section in that we give padding top but its wrong
+                    follow this approach
+                    section1 => give margin bottom & try not to give padding top
+                    section2 => give margin bottom & try not to give padding top
+                    section3 => give margin bottom & try not to give padding top 
+                    section4 => give margin bottom & try not to give padding top
+                    section5 => margin top
+
+                    Margin will use between sections as of now.
+                    Padding will use in sections as of now.
+
+                    try to write in one line 
+                    
+                            top-bottom / left-right: 
+                    margin: 0px          opx;
+                    padding:0px          opx;
+                    
+                            top/right/bottom/left
+                    margin: 0px 0px   0px    opx;
+                    padding:0px 0px   0px    opx;
+
+            -> try to write actual class instead of wrong classes like col-sm-12 col-lg-12 and read about those concepts
+            -> try to write well formet code in HTML and CSS with excellent naming convention as sagar bhai told you.
+               also apart from that try to make much simpler so any one can make changes in this.
+
+                ex. if you wrote any section just refer the name and wrote as main-mouse,main-mobile-section like this
+            
+        4. what and how i can hover image 
+            1. set first img as position as reletive
+            2. set second img as position as absolute 
+             then set the attributs to make hover over that img
+
+
+Question Which i asked ?
+    1. how i manage the layout of site?
+    2. active link can have the logo and active class and font will bold.
+    3. how to overlap the image using :after & :before?
+    4. how i setup input types for form
+
+
+what i learnt !
+    1. try to make use as much as you can in inspector element.
+
+
+
+Fonts Which i have to use 
+    1. Lora Regular. Done
+    2. MarkOT bold. Done
+    4. Baltica Regular. Done
+    8. Baltica bold. Done
+    3. Gotham Book. Done
+    5. Gotham Light. Done
+    6. Gotham bold. Done
+    7. Gotham Medium. Done
+
+
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(sansation_light.woff);
+}
+
+div {
+  font-family: myFirstFont;
+}

@@ -1,0 +1,90 @@
+@import "WebFonts.css";
+
+.menu {
+  display: block;
+  list-style: none;
+  margin-bottom: 100px;
+}
+
+.menu li {
+  display: inline-block;
+  padding: 0 37px;
+}
+
+.menu li a {
+  color: #0c547f;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Baltica-Regular;
+}
+
+.menu img {
+  padding: 0 130px;
+}
+
+.main-text h1 {
+  font-size: 100px;
+  color: #00527d;
+  font-family: Baltica-Regular;
+}
+.main-text{ margin-bottom: 50px; }
+
+.main-text p {
+  font-size: 20px;
+  color: #292929;
+  padding-bottom: 10px;
+  font-family: Gotham-light;
+  padding: 0px 100px;
+}
+
+.main-intro{ margin-bottom: 150px; }
+
+footer {
+  background: #021d2c;
+  line-height: 20px;
+}
+
+.footer-contact {
+  padding-top: 40px;
+}
+.img-footer {
+  padding-top: 20px;
+}
+.footer-contact li {
+  color: white;
+  list-style: none;
+}
+
+.footer-menu {
+  display: block;
+  padding-top: 50px;
+}
+.footer-menu li {
+  display: inline-block;
+  list-style: none;
+  padding-left: 5px;
+}
+.footer-menu li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.mini_1 {
+  color: #6c6c6c;
+}
+.mini_2 {
+  color: #6c6c6c;
+  padding-left: 120px;
+  font-weight: 300;
+}
+.footer-menu-2 ul {
+  display: block;
+  padding-bottom: 10px;
+}
+.footer-menu-2 li {
+  display: inline-block;
+  padding-left: 5px;
+}
+.footer-menu-2 a {
+  color: #6c6c6c;
+}

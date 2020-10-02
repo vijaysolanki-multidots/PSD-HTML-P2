@@ -1,0 +1,121 @@
+@import "WebFonts.css";
+
+.menu {
+  display: block;
+  list-style: none;
+  margin-bottom: 150px;
+}
+
+.menu li {
+  display: inline-block;
+  padding: 0 37px;
+}
+
+.menu li a {
+  color: #0c547f;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Baltica-Regular;
+}
+.menu img {
+  padding: 0 130px;
+}
+.h_indicator { position: absolute; top:30px; left: 945px;  }
+
+
+
+.main-text h1 {
+  font-size: 100px;
+  color: #00527d;
+  width: 710px;
+  max-width: 100%;
+  margin-left: 50px;
+  font-family: Baltica-Regular;
+  padding-bottom: 50px;
+}
+
+.main-text p {
+  font-size: 21px;
+  color: #00527d;
+  text-align: left;
+  padding-left: 163px;
+  padding-right: 300px;
+  font-family: Gotham-light;
+}
+.main-text{ margin-bottom: 150px; }
+
+.img-3{ padding-top: 30px; }
+.img-6{ padding: 30px 0px; }
+.portfolio-2{ margin-bottom: 150px; }
+.croped{ 
+  /* height: auto; */
+  width: auto;
+  overflow: hidden;
+    /* border: 5px solid black; */
+ }
+.croped img{ margin: -150px 0px -310px 0px; }
+
+.custom-testinomial {
+  padding: 150px 0px;
+}
+.custom-testinomial p {
+  color: #0c547f;
+  font-size: 25px;
+  font-family: Baltica-regular;
+  padding: 0px 150px;
+}
+.signature {
+  float: right;
+  padding-right: 10px;
+}
+
+footer {
+  background: #021d2c;
+  line-height: 20px;
+  
+}
+
+.footer-contact {
+  padding-top: 40px;
+}
+.img-footer {
+  padding-top: 20px;
+}
+.footer-contact li {
+  color: white;
+  list-style: none;
+}
+
+.footer-menu {
+  display: block;
+  padding-top: 50px;
+}
+.footer-menu li {
+  display: inline-block;
+  list-style: none;
+  padding-left: 5px;
+}
+.footer-menu li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.mini_1 {
+  color: #6c6c6c;
+}
+.mini_2 {
+  color: #6c6c6c;
+  padding-left: 120px;
+  font-weight: 300;
+}
+.footer-menu-2 ul {
+  display: block;
+  padding-bottom: 10px;
+}
+.footer-menu-2 li {
+  display: inline-block;
+  padding-left: 5px;
+}
+.footer-menu-2 a {
+  color: #6c6c6c;
+}
