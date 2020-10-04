@@ -88,3 +88,16 @@ footer {
 .footer-menu-2 a {
   color: #6c6c6c;
 }
+.mini_f1{ display: none; }
+
+/* 480 RMD */
+@media screen and (max-width:420px){
+  html{height: 100%;}
+  body{ overflow-x: hidden; }
+  .footer-menu{display: none;}
+  .footer-contact{ padding-right: 30px; }
+  .secondry-footer{display: none;}
+  .main-text h1{font-size: 50px;}
+  .main-text p {font-size: 15px; padding: 0px 20px;}
+  .mini_f1{display: inline-block; font-weight: 200;color: #6c6c6c; }   
+}

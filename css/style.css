@@ -12,6 +12,7 @@
 .menu {
   display: block;
   list-style: none;
+  padding-top: 20px;
 }
 
 .menu li {
@@ -29,6 +30,7 @@
 
 .menu img {
   padding: 0 130px;
+  height: 75px;
 }
 
 .h_indicator {
@@ -321,7 +323,7 @@ footer {
   }
   
   .menu img {
-    padding: 0 90px;
+    padding: 0 20px;
   }
   
   .main-text h1{ font-size: 100px; }
@@ -462,4 +464,58 @@ footer {
     padding: 0 50px;
   }
   
+}
+
+/* 480 RMD */
+@media screen and (max-width:420px){
+  html{height: 100%;}
+  body{ overflow-x: hidden; }
+  .header-content h1{font-size: 35px;}
+  .header-content p{font-size: 10px; padding-left: 40px; padding-right: 40px;}
+  .main-text h1{font-size: 50px;}
+
+  .main-text p {font-size: 15px; padding: 0px 20px;}
+
+  .side-svg{display: none;}
+  .custom-block { margin: 0px 50px;}
+
+  .head-text span{padding-left: 40px;font-size: 20px;}
+  .head-text img{padding-left: 40px;}
+
+  .main-text h1 {padding-left: 40px; padding-bottom:30px;}
+  .main-text p {padding-left: 40px; padding-bottom:30px;}
+  .main-text a {padding-left: 40px;font-size: 15px;}
+  
+  .connect-main{padding-top: 0%;}
+  .main-services{padding-top: 100px;}
+  .main-services span{font-size: 15px;}
+
+  .services-head-text span{padding-left: 40px;}
+  .services-head-text img {padding-left: 40px;}
+  
+  .mini-services-text h1{font-size: 70px; padding-left: 40px;}
+
+  .services-main-text span{font-size: 20px; padding-left: 40px;}
+  .services-main-text p{font-size: 14.9px; padding:0px 40px; padding-bottom: 50px;}
+
+  .services-main-text a{padding-left: 40px;font-size: 15px;}
+  
+  .mServices{padding-top: 50px;}
+  .mServices span{ padding-left: 20px; font-size: 20px;}
+  .services-main-text ul li{ font-size: 13px; }
+  .mServices{ padding-left: 30px; padding-bottom: 100px;}
+  .services-main-text{ padding-left: 0%; }
+
+  .side-bar h1 {font-size: 30px; text-align: left;}
+  .side-bar p {font-size: 15px;}  
+  .side-bar li {font-size: 18px;padding: 20px 5px;}
+
+  .side-bar{ padding: 50px 25px 100px 35px;}
+  .custom-testinomial{ padding: 0px 50px 100px 35px; }
+  .custom-testinomial p {font-size: 15px;}
+  .signature{padding-right: 0px;}
+  .footer-menu{display: none;}
+  .footer-contact{ padding-right: 30px; }
+  .secondry-footer{display: none;}
+  .mini_f1{display: inline-block; font-weight: 200;color: #6c6c6c; }   
 }
