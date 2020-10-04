@@ -160,6 +160,9 @@ textarea {
 
 ::placeholder { color: #5e5e5e; font-size: 20px; text-transform: capitalize;}
 
+.logo-m{height: 75px;display: none;}
+.menu-toggle{display: none;}
+
 /* .mini_f1{ display: none ; } */
 
 /* Mobile View */
@@ -179,10 +182,21 @@ textarea {
   .secondry-footer{ display: none; } */
 }
 
-/* 480 RMD */
+/* 420 RMD */
 @media screen and (max-width:420px){
   html{height: 100%;}
   body{ overflow-x: hidden; }
+  
+  .menu{background-color: #0c547f; display: none;}
+  .menu li{ width: 100%; padding: 0px 40px 20px 0px;}
+  .menu li a{color: white; font-size: 20px; font-family: Baltica-regular;}
+  .menu li a:hover,a:visited{color:blanchedalmond;}
+  .menu li a:hover{background-color: #506a85;}
+  .menu li:nth-child(3){display: none;}
+  .menu-toggle:hover{background-color: #fff; color: #00527d;}
+  .menu-toggle{display: inline-block; margin: 20px; float: right;border: 1px solid #00527d;color: #00527d;border-radius: 10%;background-color: blanchedalmond;}
+  .logo-m{display: inline-block; padding: 10px;}
+
   .contact-info span{font-size:20px;} 
   .contact-info p{font-size: 13px;}
   .social-handles{display: none;}

@@ -143,8 +143,8 @@ footer {
   color: #6c6c6c;
 }
 .img-banner-1,.col-img-1m{ display: none; }
-
-
+.logo-m{height: 75px;display: none;}
+.menu-toggle{display: none;}
 /* 1200 RMD */
 /* @media only screen and (min-width:1200px){ .h_indicator{display: none;} } */
 @media only screen and (max-width:1200px) {
@@ -248,6 +248,18 @@ footer {
 @media screen and (max-width:420px){
   html{height: 100%;}
   body{ overflow-x: hidden; }
+
+  /* Menu Starts */
+  .menu{background-color: #0c547f; display: none;}
+  .menu li{ width: 100%; padding: 0px 40px 20px 0px;}
+  .menu li a{color: white; font-size: 20px; font-family: Baltica-regular;}
+  .menu li a:hover,a:visited{color:blanchedalmond;}
+  .menu li a:hover{background-color: #506a85;}
+  .menu li:nth-child(3){display: none;}
+  .menu-toggle:hover{background-color: #fff; color: #00527d;}
+  .menu-toggle{display: inline-block; margin: 20px; float: right;border: 1px solid #00527d;color: #00527d;border-radius: 10%;background-color: blanchedalmond;}
+  .logo-m{display: inline-block; padding: 10px;}
+  /* Menu Ends */
 
   /* Main Hero Section Starts */
   .main-text h1{font-size: 50px;  width: 240px;max-width: 100%;padding: 50px 20px;}
