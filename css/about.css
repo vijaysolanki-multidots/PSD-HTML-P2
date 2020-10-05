@@ -3,7 +3,7 @@
 .menu {
   display: block;
   list-style: none;
-  padding-top: 20px;
+  margin-top: 20px;
 }
 
 .menu li {
@@ -84,6 +84,8 @@ footer{
 
 .logo-m{height: 75px;display: none;}
 .menu-toggle{display: none;}
+.menu li:last-child{display: none;}
+
 
 @media only screen and (min-width:1200px) and (max-width:1518px){
   .h_indicator{ display: none; }
@@ -200,6 +202,12 @@ footer{
   .menu-toggle:hover{background-color: #fff; color: #00527d;}
   .menu-toggle{display: inline-block; margin: 20px; float: right;border: 1px solid #00527d;color: #00527d;border-radius: 10%;background-color: blanchedalmond;}
   
+  .menu li:nth-child(6){display: inline-block; padding-top: 50px; padding-right: 300px !important;}
+  .menu li:nth-child(6) span{border-bottom: 1px solid white;display: inline-block;}
+  .menu li:nth-child(6) span{color: white; padding-right: 10px;text-transform: uppercase;}
+  .menu li:nth-child(6) p{color: white;}
+  .menu li:nth-child(6) img{height: 0%; width: 0%; padding: 0%; }
+
   .logo-m{display: inline-block; padding: 10px;}
   .footer-menu{display: none;}
   .footer-contact{ padding-right: 30px; }

@@ -3,7 +3,7 @@
 .menu {
   display: block;
   list-style: none;
-  margin-bottom: 100px;
+  margin-top: 10px;
 }
 
 .menu li {
@@ -21,6 +21,8 @@
 .menu img {
   padding: 0 130px;
 }
+
+.header-menu-logo{height: 75px;}
 
 .main-text h1 {
   font-size: 100px;

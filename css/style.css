@@ -300,6 +300,7 @@ footer {
 .logo-m{display: none;}
 .logo-m{height: 75px;}
 .menu-toggle{display: none;}
+.menu li:last-child{display: none;}
 
 /* Media Query */
 @media screen and (min-width:1200px) and (max-width:1500px){ 
@@ -481,6 +482,12 @@ footer {
   .menu li:nth-child(3){display: none;}
   .menu-toggle:hover{background-color: #fff; color: #00527d;}
   .menu-toggle{display: inline-block; margin: 20px; float: right;border: 1px solid #00527d;color: #00527d;border-radius: 10%;background-color: blanchedalmond;}
+  
+  .menu li:nth-child(6){display: inline-block; padding-top: 50px; padding-right: 0px !important;}
+  .menu li:nth-child(6) span{border-bottom: 1px solid white;display: inline-block;}
+  .menu li:nth-child(6) span{color: white; padding-right: 10px; text-transform: uppercase;}
+  .menu li:nth-child(6) p{color: white;}
+  
   .logo-m{display: inline-block; padding: 10px;}
   
   .header-content h1{font-size: 35px;}

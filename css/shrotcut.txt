@@ -94,13 +94,13 @@ div {
 }
 
 
-    320px
-    480px
-    600px
-    768px
-    900px
-    1024px
-    1200px
+    320px Done
+    480px Done
+    600px 
+    768px 
+    900px 
+    1024px Done
+    1200px Done
 
     .username:after {
     content:"Insert your user name";

@@ -162,6 +162,7 @@ textarea {
 
 .logo-m{height: 75px;display: none;}
 .menu-toggle{display: none;}
+.menu li:last-child{display: none;}
 
 /* .mini_f1{ display: none ; } */
 
@@ -186,16 +187,23 @@ textarea {
 @media screen and (max-width:420px){
   html{height: 100%;}
   body{ overflow-x: hidden; }
-  
-  .menu{background-color: #0c547f; display: none;}
-  .menu li{ width: 100%; padding: 0px 40px 20px 0px;}
-  .menu li a{color: white; font-size: 20px; font-family: Baltica-regular;}
-  .menu li a:hover,a:visited{color:blanchedalmond;}
-  .menu li a:hover{background-color: #506a85;}
+/*   */
+
+  .menu{background-color: #0c547f; color: wheat; display: none;}
+  .menu li{ width: 100%; padding-bottom: 25px !important; padding-right: 50px !important;}
+  .menu li a{ color: white !important;}
   .menu li:nth-child(3){display: none;}
-  .menu-toggle:hover{background-color: #fff; color: #00527d;}
-  .menu-toggle{display: inline-block; margin: 20px; float: right;border: 1px solid #00527d;color: #00527d;border-radius: 10%;background-color: blanchedalmond;}
+  .menu li a:hover,a:visited{color:blanchedalmond;background-color: #506a85;}
+  .menu-toggle:hover{color: #00527d;}
+  .menu-toggle{color: #fff;display: inline-block; margin: 20px; float: right;border: 1px solid #00527d;color: #00527d;border-radius: 10%;background-color: blanchedalmond;}
   .logo-m{display: inline-block; padding: 10px;}
+
+  .menu li:nth-child(6){display: inline-block; padding-top: 50px; padding-right: 300px !important;}
+  .menu li:nth-child(6) span{border-bottom: 1px solid white;display: inline-block;}
+  .menu li:nth-child(6) span{color: white; padding-right: 10px;}
+  .menu li:nth-child(6) p{color: white;}
+  .menu li:nth-child(6) img{height: 0%; width: 0%; padding: 0%; }
+
 
   .contact-info span{font-size:20px;} 
   .contact-info p{font-size: 13px;}
