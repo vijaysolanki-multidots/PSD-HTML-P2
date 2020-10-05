@@ -150,6 +150,7 @@ footer {
 /* 1200 RMD */
 /* @media only screen and (min-width:1200px){ .h_indicator{display: none;} } */
 @media only screen and (max-width:1200px) {
+  .mini_f1{display: none;}
   .h_indicator{display: none;}
   
   .menu li {
@@ -188,6 +189,8 @@ footer {
 
 @media screen and (min-width:710px) and (max-width:1020px){
   /* .h_indicator { position: absolute; top:30px; left: 150px;} */
+  .mini_f1{display: none;}
+  .h_indicator{display: none;}
 
   .menu li {
     display: inline-block;
@@ -207,7 +210,29 @@ footer {
   }
   
 }
+@media screen and (min-width:710px) and (max-width:990px){
+  .custom-svg{ display: none; } 
+  .mini_f1{display: none;}
+  .h_indicator{display: none;}
 
+  .menu li {
+    display: inline-block;
+    padding: 0 4px;
+  }
+  
+  .menu li a {
+    color: #0c547f;
+    text-decoration: none;
+    padding: 0 0px ;
+    font-size: 15px;
+    font-family: Baltica-Regular;
+  }
+  
+  .menu img {
+    padding: 0 0px;
+  }
+  
+}
 /* 1024 RMD */
  @media screen and (min-width:900px) and (max-width:1199px){
   .menu li {
@@ -225,6 +250,7 @@ footer {
   
   .menu li img{ padding: 0px 75px; }
   
+  .mini_f1{display: none;}
   .h_indicator{display: none;}
 
   .col-content span{ font-size: 25px; }
@@ -241,7 +267,72 @@ footer {
 /* @media screen and (min-width:0px) and (max-width:0px){} */
 
 /* 768 RMD */
-/* @media screen and (min-width:0px) and (max-width:0px){} */
+@media screen and (max-width:768px){
+  html{height: 100%;}
+  body{ overflow-x: hidden; }
+
+  /* Menu Starts */
+  .menu{background-color: #0c547f; display: none;}
+  .menu li{ width: 100%; padding: 0px 40px 20px 0px;}
+  .menu li a{color: white; font-size: 20px; font-family: Baltica-regular;}
+  .menu li a:hover,a:visited{color:blanchedalmond;}
+  .menu li a:hover{background-color: #506a85;}
+  .menu li:nth-child(3){display: none;}
+  .menu-toggle:hover{background-color: #fff; color: #00527d;}
+  .menu-toggle{display: inline-block; margin: 20px; float: right;border: 1px solid #00527d;color: #00527d;border-radius: 10%;background-color: blanchedalmond;}
+  .logo-m{display: inline-block; padding: 10px;}
+
+  .menu li:nth-child(6){display: inline-block; padding-top: 50px; padding-right: 600px !important;}
+  .menu li:nth-child(6) span{border-bottom: 1px solid white;display: inline-block;}
+  .menu li:nth-child(6) span{color: white; padding-right: 10px;}
+  .menu li:nth-child(6) p{color: white;}
+  .menu li:nth-child(6) img{height: 0%; width: 0%; padding: 0%; }
+
+  /* Menu Ends */
+
+  /* Main Hero Section Starts */
+  .main-text h1{font-size: 50px;  width: 240px;max-width: 100%;padding: 50px 20px;}
+  .main-text p {font-size: 19px; padding: 0px 20px;}
+  /* Main Hero Section Ends */
+
+  /* Main Services Starts */
+  .main-services { padding: 50px 0px;}
+  .col-img-1,.col-img-2,.col-img-3{display: none;}
+  .col-img-1m{display: inline-block; width: 100%; padding-bottom: 75px;}
+  .col-content{padding-bottom: 50px;}
+  .col-content span{font-family: Baltica-regular;font-weight: 100;padding-left: 23px;}
+  .custom-testinomial{padding: 120px 0px;}
+  .custom-testinomial p{ font-size: 15px; padding: 0px 20px;}
+  /* Main Services Ends */
+
+
+  /* Footer Starts */
+  .footer-menu{display: none;}
+  .footer-contact{ padding-right: 30px; }
+  .secondry-footer{display: none;}
+  .mini_f1{display: inline-block; font-weight: 200;color: #6c6c6c; }  
+  /* Footer Ends */
+
+}
+
+@media screen and (min-width:576px) and (max-width:768px){
+  .img-footer{padding-top: 35px !important;}
+  .footer-contact{ display: inline-block; padding: 35px 0px 0px 170px !important; overflow: hidden;}
+  .mini_f1{display: inline-block; font-weight: 200;color: #6c6c6c; }   
+}
+
+@media screen and (min-width:769px) and (max-width:992px){
+  .img-footer{padding-top: 50px !important;}
+  .footer-contact{padding-top: 50px;}
+  .secondry-footer{display: none;}
+  body{overflow-x: hidden;}
+  .main-text p {padding:10px 100px ;}
+  .mini_f1{display: none;}
+  .h_indicator{display: none;}
+
+
+}
+
 
 /* 600 RMD */
 /* @media screen and (min-width:0px) and (max-width:0px){} */

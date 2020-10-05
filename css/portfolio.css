@@ -130,7 +130,9 @@ footer {
 /* 1200 RMD */
 /* @media only screen and (min-width:1200px){ .h_indicator{display: none;} } */
 @media only screen and (max-width:1200px) {
+  .mini_f1{display: none;}
   .h_indicator{display: none;}
+
   
   .menu li {
     display: inline-block;
@@ -170,7 +172,7 @@ footer {
   .menu img {
     padding: 0 60px;
   }
-  
+  .mini_f1{display: none;}
   .h_indicator{display: none;}
 }
 
@@ -178,13 +180,7 @@ footer {
 /* @media screen and (min-width:0px) and (max-width:0px){} */
 
 /* 768 RMD */
-/* @media screen and (min-width:0px) and (max-width:0px){} */
-
-/* 600 RMD */
-/* @media screen and (min-width:0px) and (max-width:0px){} */
-
-/* 480 RMD */
-@media screen and (max-width:420px){
+@media screen and (max-width:768px){
   html{height: 100%;}
   body{ overflow-x: hidden; }
 
@@ -196,7 +192,7 @@ footer {
   .menu-toggle:hover{background-color: #fff; color: #00527d;}
   .menu-toggle{display: inline-block; margin: 20px; float: right;border: 1px solid #00527d;color: #00527d;border-radius: 10%;background-color: blanchedalmond;}
 
-  .menu li:nth-child(6){display: inline-block; padding-top: 50px; padding-right: 300px !important}
+  .menu li:nth-child(6){display: inline-block; padding-top: 50px; padding-right: 600px !important}
   .menu li:nth-child(6) span{border-bottom: 1px solid white; display: inline-block;}
   .menu li:nth-child(6) span{color: white; padding-right: 10px;}
   .menu li:nth-child(6) p{color: white;}
@@ -214,5 +210,79 @@ footer {
   .img-1m{ display: inline-block; padding-bottom: 20px; } 
   .img-1,.img-2,.img-3,.img-4,.img-5,.img-6,.img-7,.img-8{ display: none; }
 }
+
+@media screen and (min-width:576px) and (max-width:768px){
+  .img-footer{padding-top: 35px !important;}
+  .footer-contact{ display: inline-block; padding: 35px 0px 0px 170px !important; overflow: hidden;}
+  .mini_f1{display: inline-block; font-weight: 200;color: #6c6c6c; }  
+   
+}
+
+@media screen and (min-width:769px) and (max-width:992px){
+  .img-footer{padding-top: 50px !important;}
+  .footer-contact{padding-top: 50px;}
+  .secondry-footer{display: none;}
+  body{overflow-x: hidden;}
+  .main-text p {padding:10px 100px ;}
+
+}
+
+/* 600 RMD */
+/* @media screen and (min-width:0px) and (max-width:0px){} */
+
+/* 420 RMD */
+@media screen and (max-width:420px){
+  html{height: 100%;}
+  body{ overflow-x: hidden; }
+
+  .menu{background-color: #0c547f; display: none;}
+  .menu li{ width: 100%; padding: 0px 40px 20px 0px;}
+  .menu li a{color: white; font-size: 20px; font-family: Baltica-regular;}
+  .menu li a:hover,a:visited{background-color: #506a85;color:blanchedalmond;}
+  .menu li:nth-child(3){display: none;}
+  .menu-toggle:hover{background-color: #fff; color: #00527d;}
+  .menu-toggle{display: inline-block; margin: 20px; float: right;border: 1px solid #00527d;color: #00527d;border-radius: 10%;background-color: blanchedalmond;}
+
+  .menu li:nth-child(6){display: inline-block; padding-top: 50px; padding-right: 300px !important}
+  .menu li:nth-child(6) span{border-bottom: 1px solid white; display: inline-block;}
+  .menu li:nth-child(6) span{color: white; padding-right: 10px;}
+  .menu li:nth-child(6) p{color: white;}
+  .menu li:nth-child(6) img{display: none;}
+  /* .menu li:nth-child(6) img{height: 0%; width: 0%; padding: 0%; } */
+
+  .logo-m{display: inline-block; padding: 10px;}
+
+  .footer-menu{display: none; margin: 0%; padding: 0%;}
+  .footer-contact{ padding-right: 30px; }
+  .secondry-footer{display: none;}
+  .main-text h1{font-size: 65px; margin-left: 0%;}
+  .main-text p {font-size: 20px;padding:0px 0px;font-size: 20px;}
+  .custom-testinomial p {font-size: 20px;padding:0px 20px;font-size: 20px;}
+  .mini_f1{display: inline-block; font-weight: 200;color: #6c6c6c; }  
+  .img-1m{ display: inline-block; padding-bottom: 20px; } 
+  .img-1,.img-2,.img-3,.img-4,.img-5,.img-6,.img-7,.img-8{ display: none; }
+}
 /* 320 RMD */
 /* @media screen and (min-width:0px) and (max-width:0px){} */
+
+@media screen and (min-width:710px) and (max-width:990px){
+  .custom-svg{ display: none; } 
+  
+  .menu li {
+    display: inline-block;
+    padding: 0 4px;
+  }
+  
+  .menu li a {
+    color: #0c547f;
+    text-decoration: none;
+    padding: 0 10px;
+    font-size: 16px;
+    font-family: Baltica-Regular;
+  }
+  
+  .menu img {
+    padding: 0 50px;
+  }
+  .mini_f1{display: none;}
+}
