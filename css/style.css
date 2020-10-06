@@ -484,17 +484,24 @@ footer {
 @media screen and (max-width:768px){
   html{height: 100%;}
   body{ overflow-x: hidden; }
+  .menu{ padding-top: 100px; background-color:rgba(12, 84, 127, 0.5) !important;position: relative; top: -95px; display: none; pointer-events: none;}
+  .menu li{ width: 100%; padding: 0px 40px 20px 0px; pointer-events: auto;}
+  .custom-container{padding: 0%;}
 
-  /* .menu{display: none;} */
-  .menu{background-color: #0c547f; display: none;}
-  .menu li{ width: 100%; padding: 0px 40px 20px 0px;}
   .menu li a{ font-size: 20px; font-family: Baltica-regular;}
   .menu li a:hover,a:visited{color:black;}
-  .menu li a:hover{background-color: #506a85;}
+  .menu li a:hover{background-color: transparent;}
   .menu li:nth-child(3){display: none;}
-  .menu-toggle:hover{background-color: #fff; color: #00527d;}
-  .menu-toggle{display: inline-block; margin: 20px; float: right;border: 1px solid #00527d;color: #00527d;border-radius: 10%;background-color: blanchedalmond;}
-  
+  .menu-toggle:hover{
+    color: #fff; 
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    border-color:1 px solid rgba(12, 84, 127, 0.5) ;
+    overflow: hidden; 
+  }
+  .menu-toggle{display: inline-block; margin: 20px; float: right;color: #fff; border: 1px solid #506a85; border-radius: 10%;background-color: transparent;}
   .menu li:nth-child(6){display: inline-block; padding-top: 50px; padding-right: 600px;}
   .menu li:nth-child(6) span{border-bottom: 1px solid white;display: inline-block;}
   .menu li:nth-child(6) span{color: white; padding-right: 10px; text-transform: uppercase;}
@@ -576,11 +583,11 @@ footer {
   .menu{background-color: #0c547f; display: none;}
   .menu li{ width: 100%; padding: 0px 40px 20px 0px;}
   .menu li a{ font-size: 20px; font-family: Baltica-regular;}
-  .menu li a:hover,a:visited{color:blanchedalmond;}
-  .menu li a:hover{background-color: #506a85;}
+  .menu li a:hover,a:visited{color:#000; background-color: transparent;}
+  .menu li a:hover{}
   .menu li:nth-child(3){display: none;}
-  .menu-toggle:hover{background-color: #fff; color: #00527d;}
-  .menu-toggle{display: inline-block; margin: 20px; float: right;border: 1px solid #00527d;color: #00527d;border-radius: 10%;background-color: blanchedalmond;}
+  .menu-toggle:hover{background-color: transparent; color: #fff; border: 1px solid #506a85;}
+  .menu-toggle{display: inline-block; margin: 20px; float: right;border: 1px solid #00527d;color: #fff;border-radius: 10%;background-color:transparent;}
   
   .menu li:nth-child(6){display: inline-block; padding-top: 50px; padding-right: 300px;}
   .menu li:nth-child(6) span{border-bottom: 1px solid white;display: inline-block;}

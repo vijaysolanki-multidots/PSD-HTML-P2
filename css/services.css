@@ -272,14 +272,21 @@ footer {
   body{ overflow-x: hidden; }
 
   /* Menu Starts */
-  .menu{background-color: #0c547f; display: none;}
-  .menu li{ width: 100%; padding: 0px 40px 20px 0px;}
+  /* .menu{background-color: #0c547f; display: none;} */
+  /* .menu li{ width: 100%; padding: 0px 40px 20px 0px;} */
+  .menu{ padding-top: 100px; background-color:rgba(12, 84, 127, 0.5) !important;position: relative; top: -95px; display: none; pointer-events: none;}
+  .menu li{ width: 100%; padding: 0px 40px 20px 0px; pointer-events: auto;}
+  .custom-container{padding: 0%;}
+
   .menu li a{color: white; font-size: 20px; font-family: Baltica-regular;}
-  .menu li a:hover,a:visited{color:blanchedalmond;}
-  .menu li a:hover{background-color: #506a85;}
+  .menu li a:hover,a:visited{color:#506a85;}
+  .menu li a:hover{background-color: transparent;}
   .menu li:nth-child(3){display: none;}
-  .menu-toggle:hover{background-color: #fff; color: #00527d;}
-  .menu-toggle{display: inline-block; margin: 20px; float: right;border: 1px solid #00527d;color: #00527d;border-radius: 10%;background-color: blanchedalmond;}
+  .menu-toggle:hover{background-color: transparent; color: #00527d;}
+  .menu-toggle:visited{background-color: transparent; color: #fff;}
+  .menu-toggle{display: inline-block; margin: 20px; float: right;border: 1px solid #00527d;color: #00527d;border-radius: 10%;background-color: transparent;}
+  .menu-toggle{box-shadow: none;}
+  .menu-toggle:hover,.menu-toggle:visited{box-shadow: none;}
   .logo-m{display: inline-block; padding: 10px;}
 
   .menu li:nth-child(6){display: inline-block; padding-top: 50px; padding-right: 600px !important;}
@@ -346,11 +353,11 @@ footer {
   .menu{background-color: #0c547f; display: none;}
   .menu li{ width: 100%; padding: 0px 40px 20px 0px;}
   .menu li a{color: white; font-size: 20px; font-family: Baltica-regular;}
-  .menu li a:hover,a:visited{color:blanchedalmond;}
-  .menu li a:hover{background-color: #506a85;}
+  .menu li a:hover,a:visited{color:#506a85;}
+  .menu li a:hover{background-color: transparent;}
   .menu li:nth-child(3){display: none;}
-  .menu-toggle:hover{background-color: #fff; color: #00527d;}
-  .menu-toggle{display: inline-block; margin: 20px; float: right;border: 1px solid #00527d;color: #00527d;border-radius: 10%;background-color: blanchedalmond;}
+  .menu-toggle:hover{background-color: transparent color: #00527d;}
+  .menu-toggle{display: inline-block; margin: 20px; float: right;border: 1px solid #00527d;color: #00527d;border-radius: 10%;background-color: transparent;}
   .logo-m{display: inline-block; padding: 10px;}
 
   .menu li:nth-child(6){display: inline-block; padding-top: 50px; padding-right: 300px !important;}

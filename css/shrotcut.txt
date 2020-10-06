@@ -119,4 +119,42 @@ div {
 
 
 Now just make small navigation and other stuff and disable the menu img 
- 
+ Task-1 
+	So i completed the first task which was convert simple PSD to HMTL.In This task i Faced many problem but i learnt a lot from this with Mentor ship and Help of Sagar Ladani Sir/Bhai and Mayur Sir.
+
+	Learnt below things
+		1. How to Use Margin and Padding when it require.
+		2. How to effectively use Bootstrap Classes/
+		3. Learn about positions,display.
+
+	Made Mistakes durning this Task.
+		1. Write meaning less classes.
+		2. Write messy code. 
+	
+Task-2 
+	In this Task i have to resume the above project but in responsive form.Also this was Chellenging Part for me
+where i learn the RWD(Responsive web Design) from scretch. i read alot on w3school,blog and many other Youtube videos.apart from that Sagar Ladani Sir/Bhai gave direction. How to use the RWD effectively.
+
+	Learnt Below Things
+		1. Did Experiment on my examples.
+		2. Start work on project and implement 1200 and 1020 layout as for understanding working flow of RWD.
+		3. Learn about Standerds in RWD ex(320px,480px,600px,768px,900px,1024px,1200px).
+		4. Implement the above RWD standereds.
+
+	Mistakes during this task
+		1. Less of petients.
+		2. Loss of Confidence.
+
+Task-3
+	In this task MayurSir Gave me Task on GitHub.Where i have to clear core concept about the Github like push ,pull,merge,branch etc.
+
+	List of GitHub Commands
+	1. git init.
+	2. git add | . <All Files> | <File Name> | <Folder Name>.
+	3. git commit -m "<Your commit message>".
+	4. git status <checks the status of your files | if the files in stageing area | files are pushed | not 		       changed>.
+	5. git log <Allow to see logs which  files are committed>.
+	6. git branch <branch_name> | create the branch in the existing git repo.
+	7. git checkout <branch_name> | changes the branch.
+	8. git merge <branch_name> | merge the any <branch_name> with master branch or specified branch.
+	
