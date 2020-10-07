@@ -198,61 +198,31 @@ footer{
   
 }
 
-/* RWD for mobile and Below */
-@media screen and (max-width:420px){
-  html{height: 100%;}
-  body{ overflow-x: hidden; }
-  
-  .menu{background-color: #0c547f; display: none;}
-  .menu li{ width: 100%; padding: 0px 40px 20px 0px;}
-  .menu li a{color: white; font-size: 20px; font-family: Baltica-regular;}
-  .menu li a:hover,a:visited{background-color: transparent;color:#506a85;}
-  .menu li:nth-child(3){display: none;}
-  .menu-toggle:hover{background-color: transparent; color: #00527d;}
-  .menu-toggle{display: inline-block; margin: 20px; float: right;border: 1px solid #00527d;color: #00527d;border-radius: 10%;background-color: blanchedalmond;}
-  
-  .menu li:nth-child(6){display: inline-block; padding-top: 50px; padding-right: 300px !important;}
-  .menu li:nth-child(6) span{border-bottom: 1px solid white;display: inline-block;}
-  .menu li:nth-child(6) span{color: white; padding-right: 10px;text-transform: uppercase;}
-  .menu li:nth-child(6) p{color: white;}
-  .menu li:nth-child(6) img{height: 0%; width: 0%; padding: 0%; }
 
-  .logo-m{display: inline-block; padding: 10px;}
-  .footer-menu{display: none;}
-  .footer-contact{ padding-right: 30px; }
-  .secondry-footer{display: none;}
-  .main-text h1{font-size: 60px;}
-  .main-text p {font-size: 18px; padding: 50px 0px;}
+@media screen and (max-width:990px){ .main-text p {font-size: 18px; padding: 50px 0px;} }
 
-
-  /* Main Section starts */
-  .about-us{ padding: 100px 0px; }
-  .description p {font-size: 17px; font-weight: 200;}
-  /* Main Section Ends */
-
-  .mini_f1{display: inline-block; font-weight: 200;color: #6c6c6c; }   
-}
-
-@media screen and (max-width:768px){
+@media screen and (max-width:789px){
   html{height: 100%;}
   body{ overflow-x: hidden; }
   
   .menu{ padding-top: 100px; background-color:rgba(12, 84, 127, 0.5);position: relative; top: -95px; display: none; pointer-events: none;}
   .menu li{ width: 100%; padding: 0px 40px 20px 0px; pointer-events: auto;}
   .custom-container{padding: 0%;}
-  .menu li a{color: white; font-size: 20px; font-family: Baltica-regular;}
+  .menu li a{font-size: 30px !important; color: white; font-size: 20px; font-family: Baltica-regular;}
   .menu li a:hover,a:visited{color:#506a85; background-color: transparent;}
   .menu li:nth-child(3){display: none;}
   .menu-toggle:hover{background-color: #fff; color: #00527d;}
   .menu-toggle{display: inline-block; margin: 20px; float: right;border: 1px solid #00527d;color: #506a85;border-radius: 10%;background-color: transparent;}
   
-  .menu li:nth-child(6){display: inline-block; padding-top: 50px; padding-right: 600px !important;}
-  .menu li:nth-child(6) span{border-bottom: 1px solid white;display: inline-block;}
+  .menu li:nth-child(6){display: inline-block; padding-top: 50px; padding-right: 680px !important;}
+  .menu li:nth-child(6) span{ font-size: 30px; border-bottom: 1px solid white;display: inline-block;}
   .menu li:nth-child(6) span{color: white; padding-right: 10px;text-transform: uppercase;}
   .menu li:nth-child(6) p{color: white;}
   .menu li:nth-child(6) img{height: 0%; width: 0%; padding: 0%; }
 
   .logo-m{display: inline-block; padding: 10px;}
+  .main-text h1 {padding-top: 0px; }
+  
   .footer-menu{display: none;}
   .footer-contact{ padding-right: 30px; }
   .secondry-footer{display: none;}
@@ -279,4 +249,39 @@ footer{
   .img-footer{padding-top: 50px !important;}
   .footer-contact{padding-top: 50px;}
   .secondry-footer{display: none;}
+}
+
+/* RWD for mobile and Below */
+@media screen and (max-width:420px){
+  html{height: 100%;}
+  body{ overflow-x: hidden; }
+  
+  .menu{background-color:rgba(12, 84, 127, 0.5); display: none;}
+  .menu li{ width: 100%; padding: 0px 40px 20px 0px;}
+  .menu li a{color: white; font-size: 20px !important; font-family: Baltica-regular;}
+  .menu li a:hover,a:visited{background-color: transparent;color:#506a85;}
+  .menu li:nth-child(3){display: none;}
+  .menu-toggle:hover{background-color: transparent; color: #00527d;}
+  .menu-toggle{display: inline-block; margin: 20px; float: right;border: 1px solid #00527d;color: #00527d;border-radius: 10%;background-color: transparent;}
+  
+  .menu li:nth-child(6){display: inline-block; padding-top: 50px; padding-right: 300px !important;}
+  .menu li:nth-child(6) span{font-size: 20px !important;  border-bottom: 1px solid white;display: inline-block;}
+  .menu li:nth-child(6) span{color: white; padding-right: 10px;text-transform: uppercase;}
+  .menu li:nth-child(6) p{color: white;}
+  .menu li:nth-child(6) img{height: 0%; width: 0%; padding: 0%; }
+
+  .logo-m{display: inline-block; padding: 10px;}
+  .footer-menu{display: none;}
+  .footer-contact{ padding-right: 30px; }
+  .secondry-footer{display: none;}
+  .main-text h1{font-size: 60px;}
+  .main-text p {font-size: 18px; padding: 50px 0px;}
+
+
+  /* Main Section starts */
+  .about-us{ padding: 100px 0px; }
+  .description p {font-size: 17px; font-weight: 200;}
+  /* Main Section Ends */
+
+  .mini_f1{display: inline-block; font-weight: 200;color: #6c6c6c; }   
 }

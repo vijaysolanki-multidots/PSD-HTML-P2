@@ -13,6 +13,45 @@ Make changes in about.html 768px in footer.
 Make changes in services.html 768px in footer.
 
 
+@media screen and (min-width:770px) and (max-width:1201px){
+  .main-text{margin-bottom: 50px !important;}
+}
+
 manage the menu bar from 769px.
 make changes in about.html for header peregraph.
 major changes in services.html for header tag and peregraph.
+
+
+What i have to do to make efficent code base and responsive web site.
+    -> complete all bugs in 404.html,tc.html,privacy.html.
+    -> Please make good changes in Contact.html.
+    -> Compare all rwd standards with in site.
+
+    -> id-1:use jQuery or Js to make elligent navbar.
+    -> id-2:Compare the mobile view with mobile-view psd
+
+
+Suggestions/Advice 
+    => Check you website's each part.
+
+
+TestCases: 
+    1. index.html : 
+        simple view looking great.
+
+
+Notes: 
+    1. Changes:
+        make changes in services.html from 576px to 768px for tablet mode.
+        make changes in bottom of portfolio.html for padding or margin.
+        make changes in all pages where there is some white space below footer.
+        make changes in tablet standerds for headings.
+        make changes in Contact.html make better menu bar solve all bug in that.
+
+
+
+Logic | Learning
+    simple no changes.
+    1020 3rd 
+    0768 2nd
+    0420 1st    
